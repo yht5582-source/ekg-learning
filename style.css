@@ -19,3 +19,4 @@ nav{overflow-x:auto}nav button{white-space:nowrap}.topic{border-bottom:1px solid
 .access{display:inline-block;font-size:12px;padding:2px 8px;border-radius:99px;background:#e3f4e9;color:#16704f}.access.paid{background:#fff1d6;color:#8a5a12}.access.data{background:#e8eefb;color:#2f4f8f}
 .ecg12 .ll{font-size:15px;font-weight:700;fill:#1d2f35}.ecg12 .ll.small{font-size:12px;font-weight:400;fill:#8a6f6f}.wavebox svg.ecg12{min-width:860px}
 .loading{padding:60px 20px;text-align:center;color:var(--muted)}.ecgnote{margin:0 0 10px}.ptbcite{font-size:12px;line-height:1.6;background:#f5f8fa;padding:10px 12px;border-radius:8px}
+.wavebox img.ecgimg{display:block;width:100%;min-width:760px;height:auto;background:#fff}
