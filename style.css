@@ -20,3 +20,12 @@ nav{overflow-x:auto}nav button{white-space:nowrap}.topic{border-bottom:1px solid
 .ecg12 .ll{font-size:15px;font-weight:700;fill:#1d2f35}.ecg12 .ll.small{font-size:12px;font-weight:400;fill:#8a6f6f}.wavebox svg.ecg12{min-width:860px}
 .loading{padding:60px 20px;text-align:center;color:var(--muted)}.ecgnote{margin:0 0 10px}.ptbcite{font-size:12px;line-height:1.6;background:#f5f8fa;padding:10px 12px;border-radius:8px}
 .wavebox img.ecgimg{display:block;width:100%;min-width:760px;height:auto;background:#fff}
+
+/* 示範病例與考題 */
+.ecg12 .hl{fill:#ffd16638;stroke:#d89831;stroke-width:2}.ecg12 .cal{fill:none;stroke:#b4561a;stroke-width:2}.ecg12 .caltext{font-size:14px;font-weight:700;fill:#8a3f10;paint-order:stroke;stroke:#fff9f8;stroke-width:4px}
+.demointro{margin-bottom:20px}.demosteps{display:grid;grid-template-columns:repeat(7,1fr);gap:8px;margin:6px 0 16px}.demosteps button{text-align:left;font-size:13px;line-height:1.4;padding:8px 10px;border-left:3px solid var(--line)}.demosteps small{display:block;letter-spacing:0}.demosteps .done{border-left-color:#8fc7b9}.demosteps .selected{background:#e5f4ed;border-color:var(--teal)}
+.demotext{min-height:150px;padding:4px 2px}.demotext h3{margin:4px 0 6px}.demotext p{color:var(--ink)}.demotext h4{margin:14px 0 4px}.demotext li{margin-bottom:5px}.report{background:#f5f8fa;border-left:3px solid var(--teal);padding:12px 14px}
+#exam article.q{margin-bottom:18px}#exam article.q h3{margin:12px 0 14px;font-size:17px;line-height:1.6}.answer p{color:var(--ink)}.answer .tag{margin-right:6px}.tag.tagwrong{background:#fff0ec;color:#b3463d}
+.exambar{position:sticky;bottom:0;z-index:5;display:flex;align-items:center;justify-content:space-between;gap:12px;background:#fffffff2;border:1px solid var(--line);border-radius:12px;padding:12px 18px;box-shadow:0 -4px 14px #173d3614}.exambar b{color:var(--teal);font-size:18px}
+.examresult{background:#e4f1ee;border-radius:16px;padding:20px 24px;margin-bottom:18px;display:grid;gap:12px}.examresult>div:first-child{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}.bigscore{font-size:34px}.domscore{display:flex;flex-wrap:wrap;gap:8px}.domscore span{background:#fff;border-radius:8px;padding:4px 10px;font-size:13px}.domscore .full{color:#16704f}.onlywrong article.q:not(.isWrong){display:none}
+@media(max-width:800px){.demosteps{grid-template-columns:repeat(2,1fr)}.exambar{padding:10px 12px}}
